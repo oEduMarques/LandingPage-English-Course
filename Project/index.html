@@ -12,58 +12,80 @@
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <script src="script.js" defer type="text/javascript"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
   <title>LOARES</title>
 </head>
 
-  <body> <!--class="col-md-8 offset-md-2 "-->
-    <header class="sticky-top w-100 p-2">
-      
-      <div class="logo container-fluid ">
-        <a class="navbar-brand" href="#">
-          <img src="../Project/Images/loares.png" alt="Logo" width="50" height="auto"
+<body class=""> <!--class="col-md-8 offset-md-2 "-->
+  <header class="sticky-top w-100 p-2">
+
+    <div class="logo container-fluid ">
+      <a class="navbar-brand" href="#">
+        <img src="../Project/Images/loares.png" alt="Logo" width="50" height="auto"
           class="d-inline-block align-text-top">
-        </a>
+      </a>
+    </div>
+    <nav>
+
+    </nav>
+  </header>
+
+  <main>
+    <section class="container-contact">
+      <div class="p-contact">
+        <h2> Inglês online de verdade é com a escola disponível 24 horas por dia</h2>
+
+        <p>A melhor experiência de ensino online - escolhida por 20 milhões de pessoas.</p>
+
+
       </div>
-      <nav>
-        
-      </nav>
-    </header>
-    
-    <main>
-      <section class="container-contact">
-        <div class="p-contact">
-          <h2> Inglês online de verdade é com a escola disponível 24 horas por dia</h2>
-  
-          <p>A melhor experiência de ensino online - escolhida por 20 milhões de pessoas.</p>
-  
-  
-        </div>
-        <div>
-          <form action=>
-            <div class="input-group mb-3">
-              <span class="input-group-text" id="basic-addon1">Primeiro nome</span>
-              <input type="text" class="form-control" aria-label="Username"
-                aria-describedby="basic-addon1">
-            </div>
-            <div class="input-group mb-3">
-              <span class="input-group-text" id="basic-addon1">Sobrenome</span>
-              <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-                aria-describedby="basic-addon1">
-            </div>
-            <div class="input-group mb-3">
-              <span class="input-group-text" id="basic-addon1">Email</span>
-              <input type="email" class="form-control" placeholder="Username" aria-label="Username"
-                aria-describedby="basic-addon1">
-            </div>
-            <div class="input-group mb-3">
-              <span class="input-group-text" id="basic-addon1">Primeiro nome</span>
-              <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-                aria-describedby="basic-addon1">
-            </div>
-          </form>
-        </div>
-      </section>
-    </main>
-  </body>
+      <div class="form-contact">
+        <form action="" id="contact-form">
+          <div class="input-group mb-3">
+
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Nome completo" aria-label="nome" name="user_name">
+          </div>
+
+          <div class="input-group mb-3">
+            <input type="email" class="form-control" placeholder="Email" aria-label="email" name="user_email">
+          </div>
+
+          <div class="input-group mb-3">
+            <input type="number" class="form-control" placeholder="Número de telefone" aria-label="numero">
+          </div>
+
+          <div class="input-group mb-3">
+            <select class="form-select" id="inputGroupSelect1">
+              <option selected>Idade</option>
+              <option value="1">&lt;15</option>
+              <option value="2">15-17</option>
+              <option value="4">18-24</option>
+              <option value="5">25-34</option>
+              <option value="6">35-44</option>
+              <option value="7">&gt;45</option>
+            </select>
+          </div>
+
+          <div class="input-group mb-3">
+            <select class="form-select" id="inputGroupSelect02">
+              <option selected>Motivação</option>
+              <option value="trabalho">Para o trabalho</option>
+              <option value="estudo">Para o estudo</option>
+              <option value="viajar">Para viajar</option>
+              <option value="hobby">Por hobby</option>
+              <option value="outros">Outros</option>
+            </select>
+          </div>
+
+          <input type="submit" value="Send">
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
