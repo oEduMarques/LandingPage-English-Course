@@ -1,10 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(252, 238, 252)
 }
 
 header {
     background-color: rgb(35, 0, 63);
-    
+    margin-bottom: 5vh;
 }
 
 .logo {
@@ -19,23 +25,44 @@ header {
 main { 
     margin-left: 20%;
     margin-right: 20%;
-    border: 1px solid;
+    /* border: 1px solid; */
     
 }
 
 .container-contact {
     display: flex;
     flex-direction: row;
-    border: 1px solid;
+    /* border: 1px solid; */
     background-color: rgb(252, 238, 252)
 }
 
-.p-contact {
-    
+.ph-contact {
+    font-size: 2.5em;
+}
+
+.pp-contact {
+    font-size: 1em;
 }
 
 .form-contact {
-    padding: 2vh;
+    padding: 5vh;
     background-color: rgb(255, 255, 255);
-    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(148, 147, 147);
+    width: 50%;
+}
+
+.desc-form {
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.btn {
+    color: rgb(35, 0, 63);
+    border-color: rgb(35, 0, 63);
+    border: 2px;
+}
+
+.btn:hover {
+    background-color: rgb(35, 0, 63);
 }
