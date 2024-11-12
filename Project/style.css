@@ -33,7 +33,15 @@ main {
     display: flex;
     flex-direction: row;
     /* border: 1px solid; */
-    background-color: rgb(252, 238, 252)
+    background-color: rgb(252, 238, 252);
+}
+
+.teste {
+    display: flex;
+}
+
+.p-contact {
+    margin-right: 5vh;
 }
 
 .ph-contact {
@@ -41,7 +49,18 @@ main {
 }
 
 .pp-contact {
-    font-size: 1em;
+    font-size: 1.3em;
+    margin-bottom: 5vh;
+}
+
+.bi {
+    color: rgb(35, 0, 63);
+    min-width: 30px;
+    margin-right: 2%;
+}
+
+.introduction-contact{
+    display: flex;
 }
 
 .form-contact {
@@ -49,7 +68,7 @@ main {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(148, 147, 147);
-    width: 50%;
+    width: 60%;
 }
 
 .desc-form {
@@ -58,11 +77,13 @@ main {
 }
 
 .btn {
+    margin: 0;
     color: rgb(35, 0, 63);
     border-color: rgb(35, 0, 63);
-    border: 2px;
+    border: 2px solid rgb(35, 0, 63);
 }
 
 .btn:hover {
     background-color: rgb(35, 0, 63);
+    border: 2px solid rgb(35, 0, 63); 
 }
