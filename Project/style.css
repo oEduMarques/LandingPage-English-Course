@@ -13,7 +13,7 @@ header {
     margin-bottom: 5vh;
 }
 
-.logo {
+.logoL {
     margin-left: 20%;
 }
 
@@ -23,8 +23,8 @@ header {
 }
 
 main { 
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     /* border: 1px solid; */
     
 }
@@ -42,14 +42,15 @@ main {
 
 .p-contact {
     margin-right: 5vh;
+    width: auto;
 }
 
 .ph-contact {
-    font-size: 2.5em;
+    font-size: 3.5em;
 }
 
 .pp-contact {
-    font-size: 1.3em;
+    font-size: 1.6em;
     margin-bottom: 5vh;
 }
 
@@ -61,6 +62,7 @@ main {
 
 .introduction-contact{
     display: flex;
+    font-size: 1.3em;
 }
 
 .form-contact {
@@ -68,7 +70,7 @@ main {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(148, 147, 147);
-    width: 60%;
+    width: 75%;
 }
 
 .desc-form {
@@ -76,14 +78,48 @@ main {
     justify-content: center;
 }
 
+.form-control, .form-select{
+    font-size: 1.2em;
+}
+
+.acept-term {
+    margin-top: 3vh;
+}
+
 .btn {
     margin: 0;
     color: rgb(35, 0, 63);
     border-color: rgb(35, 0, 63);
-    border: 2px solid rgb(35, 0, 63);
+    border: 1px solid rgb(35, 0, 63);
 }
 
 .btn:hover {
     background-color: rgb(35, 0, 63);
-    border: 2px solid rgb(35, 0, 63); 
+    border: 1px solid rgb(35, 0, 63); 
+}
+
+.info {
+    display: flex;
+    margin-top: 10vh;
+    justify-content: space-between;
+}
+
+.info-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.info-desc {
+    font-size: 1.2em;
+}
+
+.info-obs {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.biStar {
+    width: 20;
+    height: 20;
+    margin-bottom: 1.5vh;
 }

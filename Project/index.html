@@ -12,7 +12,8 @@
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer type="text/javascript"></script>
+  <script src="API/emailjs.js" defer type="text/javascript"></script>
+  <script src="script.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
 
@@ -25,8 +26,10 @@
     <div class="logo container-fluid ">
       <a class="navbar-brand" href="#">
         <img src="../Project/Images/loares.png" alt="Logo" width="50" height="auto"
-          class="d-inline-block align-text-top">
+          class="logoL d-inline-block align-text-top">
       </a>
+      <a href="#about" class="contact">Contato</a>
+      <button href="#contact" class="contact btn-outline-secondary">Enviar</button>
     </div>
     <nav>
 
@@ -34,7 +37,7 @@
   </header>
 
   <main>
-    <section class="container-contact">
+    <section class="container-contact" id="contact">
       <div class="p-contact">
         <h2 class="ph-contact"> Inglês online de verdade é com uma escola disponível 24 horas por dia</h2>
 
@@ -81,15 +84,15 @@
         <form action="" id="contact-form">
 
           <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Nome completo" aria-label="nome" name="user_name">
+            <input type="text" id="name" class="form-control" placeholder="Nome completo" aria-label="nome" name="user_name">
           </div>
 
           <div class="input-group mb-3">
-            <input type="email" class="form-control" placeholder="Email" aria-label="email" name="user_email">
+            <input type="email" id="email" class="form-control" placeholder="Email" aria-label="email" name="user_email">
           </div>
 
           <div class="input-group mb-3">
-            <input type="number" class="form-control" placeholder="Número de telefone" aria-label="numero">
+            <input type="number" id="number" class="form-control" placeholder="Número de telefone" aria-label="numero">
           </div>
 
           <div class="input-group mb-3">
@@ -115,10 +118,44 @@
             </select>
           </div>
 
-          <div class="teste">
+          <p class="acept-term">Ao clicar no botão abaixo eu concordo em ser contatado(a) por telefone e WhatsApp. Aceito também receber ofertas e dicas por e-mail e SMS.</p>
+
             <button type="submit" class="btn btn-outline-secondary">Enviar</button>
-          </div>
         </form>
+      </div>
+    </section>
+
+    <section class="info">
+      <div class="info-container">
+        <span class="info-title">20 milhões</span>
+        <p class="info-desc">de alunos já aprenderam</p>
+      </div>
+      <div class="info-container">
+        <span class="info-title">2 milhões</span>
+        <p class="info-desc">de aulas ao vivo por ano</p>
+      </div>
+      <div class="info-container">
+        <span class="info-title">59 anos</span>
+        <p class="info-desc">de experiência de ensino</p>
+      </div>
+      <div class="info-container">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="biStar bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="biStar bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="biStar bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="biStar bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="biStar bi-star-fill" viewBox="0 0 16 16">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        <p class="info-desc">Avaliação dos professores</p>
+        <p class="info-obs">(Os alunos avaliam os professores ao final de cada aula)</p>
       </div>
     </section>
   </main>
