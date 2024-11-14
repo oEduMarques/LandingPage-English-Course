@@ -123,3 +123,8 @@ main {
     height: 20;
     margin-bottom: 1.5vh;
 }
+
+.img-students {
+    width: 50vh;
+    height: auto;
+}
