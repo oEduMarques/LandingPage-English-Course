@@ -162,3 +162,8 @@ main {
     border: 1px solid rgb(90, 0, 163);
     color: rgb(255, 255, 255);
 }
+
+.d-block {
+    width: 50vh;
+    height: auto;
+}
