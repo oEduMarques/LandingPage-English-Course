@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(252, 238, 252)
+    background-color: rgb(252, 238, 252);
 }
 
 header {
@@ -15,11 +15,26 @@ header {
 
 .logoL {
     margin-left: 20%;
+    align-items: center;
 }
 
 .logo img{
+    display: flex;
+    align-content: center;
     filter: drop-shadow(0 0 0.1rem rgb(255, 255, 255));
+    border: 1px solid white;
     
+}
+
+.logo {
+    border: 1px solid white;
+}
+
+.nav-contact {
+    margin-left: 80%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
 }
 
 main { 
