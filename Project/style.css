@@ -18,17 +18,25 @@ header {
     align-items: center;
 }
 
-.logo img{
+.logo {
+
     display: flex;
     align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.logo img{
     filter: drop-shadow(0 0 0.1rem rgb(255, 255, 255));
-    border: 1px solid white;
     
 }
 
-.logo {
-    border: 1px solid white;
-}
 
 .nav-contact {
     margin-left: 80%;
@@ -143,7 +151,7 @@ main {
 
 .img-students {
     width: 50vh;
-    height: auto;
+    height: 50vh;
     margin-left: 5vh;
 }
 
