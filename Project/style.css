@@ -19,16 +19,7 @@ header {
 }
 
 .logo {
-
     display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.navbar-brand {
-    display: flex;
-    align-content: center;
     align-items: center;
 }
 
@@ -39,17 +30,25 @@ header {
 
 
 .nav-contact {
-    margin-left: 80%;
-    border: 1px solid white;
+    margin-left: 50%;
     display: flex;
     align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(35, 0, 63);
+    padding: 0.5%;
+    background-color: rgb(252, 238, 252);
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-contact:hover {
+    transform: scale(1.1);
 }
 
 main { 
     margin-left: 15%;
     margin-right: 15%;
-    /* border: 1px solid; */
-    
 }
 
 .container-contact {
@@ -114,12 +113,12 @@ main {
     color: rgb(255, 255, 255);
     background-color: rgb(35, 0, 63);
     border: 1px solid rgb(35, 0, 63);
+    transition: transform 0.3s ease-in-out;
 }
 
 .btn-contact:hover {
-    background-color: rgb(90, 0, 163);
-    border: 1px solid rgb(90, 0, 163);
-    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    background-color: rgb(35, 0, 63);
 }
 
 .info {
@@ -178,12 +177,12 @@ main {
     color: rgb(255, 255, 255);
     background-color: rgb(35, 0, 63);
     border: 1px solid rgb(35, 0, 63);
+    transition: transform 0.3s ease-in-out;
 }
 
 .ef-btn:hover {
-    background-color: rgb(90, 0, 163);
-    border: 1px solid rgb(90, 0, 163);
-    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    background-color: rgb(35, 0, 63);
 }
 
 .d-block {
