@@ -1,32 +1,33 @@
 const swiper = new Swiper('.swiper-container', {
-    // Basic slider settings
+    // Configurações básicas do Swiper
     slidesPerView: 1,
     spaceBetween: 30,
-  
-    // Navigation
+
+    // Configurações de navegação
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
     },
-  
-    // Pagination
+
+    // Configurações de paginação
     pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
+        el: '.swiper-pagination',
+        clickable: true,
+        type: 'bullets', // Isso mostra a fração (ex: 1/3)
     },
-  
-    // Autoplay
+
+    // Configurações de autoplay
     autoplay: {
-      delay: 2500, // Adjust the delay as needed
-      disableOnInteraction: false,
+        delay: 5000,
+        disableOnInteraction: false,
     },
-  
-    // Loop
+
+    // Configuração de loop
     loop: true,
-  
-    // Scrollbar (optional)
+
+    // Configurações opcionais de scrollbar
     scrollbar: {
-      el: '.swiper-scrollbar',
-      draggable: true,
+        el: '.swiper-scrollbar',
+        draggable: true,
     },
-  });
+});

@@ -195,7 +195,39 @@ main {
     height: 80%;
   }
 
+.swiper-container {
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    /* Adicionado para permitir posicionamento absoluto dos botões */
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #000;
+    /* Ajuste a cor conforme necessário */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.swiper-button-prev {
+    left: 20%;
+}
+
+.swiper-button-next {
+    right: 20%;
+}
+.swiper-slide {
+    display: row;
+    border: 1px solid green;
+}
+
 .img-swiper {
     width: 50vh;
     height: 50vh;
+    border: 1px solid;
+}
+
+.text-slide1 {
+    border: 1px solid;
 }

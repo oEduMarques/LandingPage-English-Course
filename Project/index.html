@@ -16,8 +16,7 @@
   <script src="Scripts/script.js" defer></script>
   <script src="../Project/API/swiper.js" defer></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
   <title>LOARES</title>
 </head>
@@ -198,20 +197,31 @@
     </section> -->
     
     <section>
-      <div class="swiper">
-        <div class="swiper-wrapper">
+      <div class="swiper-container"> 
+        <div class="swiper-wrapper"> 
+          <div class="swiper-slide">
+            <img src="../Project/Images/slide1.png" alt="" class="img-swiper">
+            <div class="text-slide1">
+              <h1>Aulas de inglês ao vivo com nossos Professores Efekta™</h1>
+              <p >Você pode fazer aulas particulares ou aulas interativas em grupo com colegas do mesmo nível, liderados por nossos especialistas e certificados Professores Efekta™. Escolha temas baseados em seus interesses pessoais e aumente sua confiança com cenários da vida real e dinâmicas em grupo. Para iniciantes, também oferecemos aulas com professores bilíngues.</p>
+            </div>
+          </div> 
+          <div class="swiper-slide">
+            <img src="../Project/Images/slide2.png" alt="" class="img-swiper">
+          </div> 
+          <div class="swiper-slide">
+            <img src="../Project/Images/slide3.png" alt="" class="img-swiper"
+            ></div> 
+        </div> 
+        <div class="swiper-pagination">
 
-          <div class="swiper-slide"><img src="../Project/Images/slide1.png" alt="" class="img-swiper"></div>
-          <div class="swiper-slide"><img src="../Project/Images/slide2.png" alt="" class="img-swiper"></div>
-          <div class="swiper-slide"><img src="../Project/Images/slide3.png" alt="" class="img-swiper"></div>
-          ...
-        </div>
-        <div class="swiper-pagination"></div>
-      
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      
-        <div class="swiper-scrollbar"></div>
+        </div> 
+        <div class="swiper-button-prev">
+
+        </div> 
+        <div class="swiper-button-next">
+
+        </div> 
       </div>
     </section>
   </main>
