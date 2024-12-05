@@ -28,7 +28,6 @@ header {
     
 }
 
-
 .nav-contact {
     margin-left: 50%;
     display: flex;
@@ -190,16 +189,11 @@ main {
     height: auto;
 }
 
-.swiper {
-    width: 80%;
-    height: 80%;
-  }
-
 .swiper-container {
     max-width: 100%;
     overflow: hidden;
     position: relative;
-}
+  }
 
 .swiper-button-prev, .swiper-button-next {
     color: #000;/
