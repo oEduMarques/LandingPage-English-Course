@@ -45,7 +45,7 @@ header {
     transform: scale(1.1);
 }
 
-main { 
+section { 
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -189,14 +189,27 @@ main {
     height: auto;
 }
 
+.swiper-section { 
+    background-image: url(../Project/Images/purpleback.jpg); 
+    margin: auto;
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    background-size: cover;
+    background-position: center;
+}
+
 .swiper-container {
     max-width: 100%;
     overflow: hidden;
     position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: rgb(252, 238, 252);
   }
 
 .swiper-button-prev, .swiper-button-next {
-    color: #000;/
+    color: #000;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
