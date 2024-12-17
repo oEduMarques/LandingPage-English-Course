@@ -184,6 +184,10 @@ section {
     background-color: rgb(35, 0, 63);
 }
 
+.btn:active {
+    background-color: rgb(70, 0, 128);
+}
+
 .d-block {
     width: 50vh;
     height: auto;
@@ -241,4 +245,44 @@ section {
 
 .text-slide {
     align-content: center;
+}
+
+.mark-container {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.mark-text {
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.mark-text h3{
+    font-size: 1.5rem;
+}
+
+.mark-images {
+    display: flex;
+}
+
+.icon-mark {
+    margin-left: 10%;
+    width: 10vh;
+    height: auto;
+}
+
+.reputation-container {
+    margin-top: 10%;
+    display: flex;
+}
+
+.reputation-text {
+    margin-right: 20%;
+}
+
+.selo-img {
+    width: 100%;
+    height: auto;
 }
