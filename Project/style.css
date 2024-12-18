@@ -279,10 +279,18 @@ section {
 }
 
 .reputation-text {
-    margin-right: 20%;
+    margin-right: 8%;
 }
 
 .selo-img {
     width: 100%;
     height: auto;
+}
+
+.reputation-container h3 {
+    font-size: 2.5em;
+}
+
+.reputation-container p {
+    font-size: 1.2em;
 }
