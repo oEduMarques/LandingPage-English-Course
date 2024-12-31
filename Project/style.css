@@ -294,3 +294,22 @@ section {
 .reputation-container p {
     font-size: 1.2em;
 }
+
+.footer-container {
+    background-color: rgb(35, 0, 63);
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    margin-top: 10%;
+    background-size: cover;
+    background-position: center;
+} 
+
+.copyright {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 1%;
+}
